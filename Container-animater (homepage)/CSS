@@ -1,0 +1,34 @@
+selector .card-content{
+    height: 56%;
+    margin-bottom: -150px;
+    transition: all 0.5s ease;
+}
+
+selector .card-wrapper:hover .card-content{
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+selector .card-content .e-con-inner{
+    transition: all 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+selector .card-wrapper:not(:hover) .card-content .e-con-inner {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+
+selector .card-wrapper:hover .card-content .e-con-inner {
+    justify-content: end;
+}
+
+@media(max-width:1024px){
+   selector .card-content{
+    height: 54%;
+}
+}

@@ -1,0 +1,151 @@
+<div class="hero-center-section">
+	<div class="left-text">Home</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Home1.png" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hero-center-section">
+	<div class="left-text">Lúnasa History</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Lunasa-History.png" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hero-center-section">
+	<div class="left-text">Traditions</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Traditions-and-recipes.jpg" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hero-center-section">
+	<div class="left-text">The Wheel of the Year</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/The-Wheel-of-the-year.jpg" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hero-center-section">
+	<div class="left-text">Lugh of the Tuatha Dé Dannan</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Lugh-and-The-Tuatha-De-Dannan.jpg" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hero-center-section">
+	<div class="left-text">Other Festivals</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Other-Festivals.jpg" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hero-center-section">
+	<div class="left-text">Podcast</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/09/Fire.png" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hero-center-section">
+	<div class="left-text">Gallery</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/08/Gallery.jpg" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hero-center-section">
+	<div class="left-text">References and Interview Info</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-8">
+				<div class="img-wrap">
+					<img decoding="async" src="https://learninglunasa.ie/wp-content/uploads/2024/09/Interviews.png" data-spai="1" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section padding-top-bottom over-hide z-bigger">
+	<ul class="slide-buttons">
+		<li class="">
+			<a href="https://learninglunasa.ie/" class="hover-target" data-hover="home">home</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=146" class="hover-target" class="hover-target" data-hover="Lúnasa History">Lúnasa History</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=44" class="hover-target" data-hover="Traditions">Traditions</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=151" class="hover-target" data-hover="The Wheel of the Year">The Wheel of the Year</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=70" class="hover-target" data-hover="Lugh of the Tuatha Dé Dannan">Lugh of the Tuatha Dé Dannan</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=163" class="hover-target" data-hover="Other Festivals">Other Festivals</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=142" class="hover-target" data-hover="Podcast">Podcast</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=138" class="hover-target" data-hover="Gallery">Gallery</a>
+		</li>
+		<li class="">
+			<a href="https://learninglunasa.ie/?page_id=384" class="hover-target" data-hover="References and Interview Info">References and Interview Info</a>
+		</li>
+	</ul>
+</div>
+
+<!-- Page cursor
+================================================== -->
+
+<div class='cursor' id="cursor"></div>
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>

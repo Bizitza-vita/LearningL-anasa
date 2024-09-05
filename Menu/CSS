@@ -1,0 +1,282 @@
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--dark-blue: #1f2029;
+	--dark-light: #424455;
+	--red: #da2c4d;
+	--yellow: #f8ab37;
+	--grey: #ecedf3;
+}
+
+/* #Primary
+================================================== */
+
+::selection {
+	color: var(--white);
+	background-color: var(--black);
+}
+::-moz-selection {
+	color: var(--white);
+	background-color: var(--black);
+}
+mark {
+	color: var(--white);
+	background-color: var(--black);
+}
+.color-yellow {
+	color: var(--yellow);
+}
+.size-18 {
+	font-size: 14px; /* Further reduced from 16px (user feedback)*/
+}
+.opacity-40 {
+	opacity: 0.4;
+}
+.opacity-60 {
+	opacity: 0.6;
+}
+.section {
+	position: relative;
+	width: 100%;
+	display: block;
+	z-index: 30 !important;
+}
+.over-hide {
+	overflow: hidden;
+}
+
+.hero-center-section {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transform: translateY(-50%);
+	opacity: 0;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+	text-align: center;
+}
+.hero-center-section.show {
+	opacity: 1;
+}
+.hero-center-section .left-text{
+	position: absolute;
+	top: -50%;
+	left: -20px;
+	height: 200%;
+	z-index: 1;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	-webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    font-size: 7vw;
+    line-height: 1;
+    color: rgba(200,200,200,.1);
+    background: linear-gradient(90deg, rgba(200,200,200,0), rgba(200,200,200,0.1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	line-height: 1;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+.hero-center-section.show .left-text{
+	left: 0;
+}
+
+.z-bigger {
+	z-index: 30 !important;
+}
+
+.img-wrap {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.02);
+	display: block;
+	transform: scale(1.03);
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+.img-wrap img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* #Cursor
+================================================== */
+.cursor,
+.cursor2,
+.cursor3{
+	position: fixed;
+	border-radius: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	pointer-events: none;
+	left: -100px;
+	top: 50%;
+	mix-blend-mode: difference;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+	z-index: 9999999;
+}
+.cursor{
+	background-color: var(--white);
+	height: 0;
+	width: 0;
+	z-index: 9999999;
+}
+.cursor2,.cursor3{
+	height: 36px;
+	width: 36px;
+	z-index:99998;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out
+}
+.cursor2.hover,
+.cursor3.hover{
+	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
+	transform:scale(2) translateX(-25%) translateY(-25%);
+	border:none
+}
+.cursor2{
+	border: 2px solid var(--white);
+	box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+.cursor2.hover{
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
+}
+
+/* #Menu
+================================================== */
+.slide-buttons {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 1250px; /* Reverted to previous width */
+	max-width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	list-style: none;
+}
+.slide-buttons li {
+	position: relative;
+	padding: 0;
+	margin: 45px 0; /* Keep margin for vertical spacing */
+	text-align: center;
+	display: block; /* Block display for vertical layout */
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+.slide-buttons li a {
+	position: relative;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 65px; /* Reduced from 100px size of the main font*/
+	line-height: 1;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px var(--white);
+	text-stroke: 1px var(--white);
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	color: transparent;
+	opacity: 0.5;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+.slide-buttons li.active a {
+	opacity: 1;
+}
+.slide-buttons li a:hover {
+	text-decoration: none;
+}
+.slide-buttons li a:focus,
+.slide-buttons li a:active {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+.slide-buttons li a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 65px; /* Reduced from 100px */
+	line-height: 1;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 0;
+	max-height: 0;
+	-webkit-text-stroke: transparent;
+	text-stroke: transparent;
+	-webkit-text-fill-color: var(--white);
+	text-fill-color: var(--white);
+	color: var(--white);
+	content: attr(data-hover);
+	-webkit-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+.slide-buttons li.active a::before,
+.slide-buttons li a:active::before,
+.slide-buttons li a:focus::before {
+	max-height: 100%;
+}
+
+/* #Media
+================================================== */
+
+@media (min-width: 1025px) { /* DESKTOP */
+	.hero-center-section.show .img-wrap {
+		transform: scale(1);
+	}
+	.padding-top-bottom {
+		padding: 60px 40px; /* Reduced padding */
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { /* TABLET */
+	.hero-center-section.show .img-wrap {
+		transform: scale(2.5); /* Reduced scaling */
+	}
+	.padding-top-bottom {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 767px) {  /* MOBILE */
+	.cursor,
+	.cursor2,
+	.cursor3 {
+		display: none;
+	}
+	.hero-center-section .left-text {
+		display: block;
+		font-size: 35px; /* Further reduce for mobile */
+	}
+	.slide-buttons li {
+		margin: 20px 1px; /* Adjusted for mobile spacing */
+	}
+	.slide-buttons li a {
+		font-size: 35px; /* Reduced from 35px */
+		font-weight: 700;
+	}
+	.slide-buttons li a::before {
+		font-size: 35px; /* Reduced from 35px */
+		font-weight: 700;
+	}
+	.hero-center-section.show .img-wrap {
+		transform: scale(3.5); /* Adjusted scaling */
+	}
+	.padding-top-bottom {
+		padding: 30px 10px;
+	}
+}
+

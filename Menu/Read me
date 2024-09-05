@@ -1,0 +1,21 @@
+How to Implement:
+Add HTML Widgets:
+
+Use one HTML widget for the structure of the menu and hero sections.
+Use another HTML widget for the JavaScript that manages the custom cursor and hover effects.
+Custom CSS:
+
+Add the provided CSS in the Custom CSS section under Advanced in Elementor page settings.
+Features:
+
+Each menu item reveals its corresponding section when hovered.
+A custom circular cursor enlarges on hover.
+Responsive design adapts for different screen sizes.
+
+Features:
+Hover-Activated Content: Each menu item reveals its corresponding section with an image when hovered.
+Custom Cursor: The page uses a custom circular cursor that enlarges when hovering over interactive elements.
+Responsive Design: Media queries adjust the layout and appearance based on the screen size.
+Notes:
+JavaScript and CSS Placement: Ensure that JavaScript is added in a separate HTML widget and the CSS is added via Advanced > Custom CSS in Elementor settings.
+Active State: The first section is triggered by default when the page loads.

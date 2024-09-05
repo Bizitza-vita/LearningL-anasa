@@ -1,0 +1,19 @@
+Smoke-Headline CSS and JavaScript - jQuery for Elementor Pro
+Purpose:
+This code applies a "smoke" animation effect to text, making letters disappear and reappear in a smoky transformation when hovered.
+How to Implement:
+Add an HTML Widget in Elementor:
+
+Drag and drop the HTML Widget into the desired section of your page.
+Paste the complete code (both CSS and jQuery) provided above into the HTML widget.
+Assign the smoke Class:
+
+In the Elementor editor, add the smoke class to any widget or heading where you want the animation to occur.
+Features:
+Hover Effect: Each letter of the text animates with a smoky transformation when hovered.
+Smooth Transitions: Letters disappear, blur, and reappear using keyframe animations.
+Responsiveness: The effect adjusts based on screen size, maintaining an optimal display on different devices.
+Notes:
+jQuery Dependency: This script requires jQuery (which is included in the code via the <script> tag).
+Text Wrapping: The jQuery script wraps each individual letter of the text in a <span>, enabling the animation on hover.
+Customizable Animation: You can modify the keyframes or transition times to customize the smoke effect.

@@ -1,0 +1,15 @@
+CSS Class: container-animated
+This class enables a hover effect to animate the card's content, adjusting its height and inner element behavior.
+How to Implement:
+Apply CSS to Your Elementor Section:
+Use the selector .card-content and selector .card-wrapper classes on any container where you want to apply this animation.
+Custom CSS in Elementor:
+Paste the provided CSS into Custom CSS within Elementor Pro.
+Features:
+Hover Effect: On hover, the .card-content expands to 100% height.
+Smooth Transitions: Both card-content and .e-con-inner smoothly transition in 0.5 seconds.
+Fade-In Animation: Inner content fades in when the card is not hovered.
+Responsive Design: Adjusts the .card-content height for screens smaller than 1024px.
+Notes:
+Height Adjustment: Customize the initial height (56%) and responsive height (54%) as needed.
+Ease Timing: Transitions and animations use a default ease of 0.5s.
